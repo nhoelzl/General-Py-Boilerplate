@@ -1,1 +1,1 @@
-# python-project-boilerplate
+# General 🐍 Project Boilerplate (for Data Science)
