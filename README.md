@@ -3,4 +3,6 @@
 # Usage
 
 # License
-Appache License 2.0
+MIT License
+
+Copyright (c) 2021 Nicole Hoelzl
