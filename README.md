@@ -1,3 +1,5 @@
+![Python CI](https://github.com/nhoelzl/General-Py-Boilerplate/workflows/Python%20CI/badge.svg?branch=main)
+
 # General 🐍 Project Boilerplate (for Data Science)
 
 This boilerplate uses Python>3 with pytest>3.0.7. 
