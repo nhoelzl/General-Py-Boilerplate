@@ -16,7 +16,7 @@ If you want to test your functionality, go to the location of your test file and
 ```
 ============================================================== test session starts 
 platform darwin -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
-rootdir: ./
+rootdir: ./tests/
 collected 1 item                                                                                                                                
 
 tests.py .                                                                                                                         [100%]
