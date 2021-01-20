@@ -11,7 +11,7 @@ When running `main.py`, your first output should be:
 [I 210120 10:42:26 main:15] hello world
 ```
 
-If you want to test your functionality, go to the location of your test file and type `pytest tests.py`.
+If you want to test your functionality, go to the location of your test file and type `py.test test_sample.py`.
 
 ```
 ============================================================== test session starts 
@@ -19,7 +19,7 @@ platform darwin -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
 rootdir: ./tests/
 collected 1 item                                                                                                                                
 
-tests.py .                                                                                                                         [100%]
+test_sample.py .                                                           [100%]
 
 =============================================================== 1 passed in 0.01s
 ```
