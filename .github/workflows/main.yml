@@ -53,7 +53,6 @@ jobs:
     # Test your code with pytest
     - name: Test with pytest
       run: |
-        cd tests
         pytest tests.py --doctest-modules --junitxml=junit/test-results-${{ matrix.python-version }}.xml
     # Store test results to artifacts repository 
     - name: Upload pytest test results
