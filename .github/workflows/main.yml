@@ -52,7 +52,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     # Test your code with pytest
     - name: Test with pytest
-      run: pytest tests.py --doctest-modules --junitxml=junit/test-results-${{ matrix.python-version }}.xml
+      run: pytest tests/tests.py --doctest-modules --junitxml=junit/test-results-${{ matrix.python-version }}.xml
     # Store test results to artifacts repository 
     - name: Upload pytest test results
       uses: actions/upload-artifact@v2
