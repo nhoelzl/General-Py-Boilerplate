@@ -19,7 +19,7 @@ platform darwin -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
 rootdir: ./tests
 collected 1 item                                                                                                                                
 
-test_example.py .                                                                                                                         [100%]
+tests.py .                                                                                                                         [100%]
 
 =============================================================== 1 passed in 0.01s
 ```
