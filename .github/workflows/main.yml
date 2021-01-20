@@ -41,7 +41,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest
+        pip install flake8 pytest pytest-github-actions-annotate-failures pytest-cov
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     # Check your code syntax with flake8
     - name: Lint with flake8
@@ -54,13 +54,4 @@ jobs:
     - name: Test with pytest
       working-directory: ./tests
       run: |
-       mkdir junit
-       pytest tests.py --doctest-modules --junitxml=junit/test-results-${{ matrix.python-version }}.xml
-    # Store test results to artifacts repository 
-    - name: Upload pytest test results
-      uses: actions/upload-artifact@v2
-      with:
-        name: pytest-results-${{ matrix.python-version }}
-        path: junit/test-results-${{ matrix.python-version }}.xml
-      # Use always() to always run this step to publish test results when there are test failures
-      if: ${{ always() }}
+       py.test tests.py --cov=. --cov-report html
