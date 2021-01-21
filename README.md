@@ -1,6 +1,6 @@
 ![Python CI](https://github.com/nhoelzl/General-Py-Boilerplate/workflows/Python%20CI/badge.svg?branch=main)
 
-# General 🐍 Project Boilerplate (for Data Science)
+# General 🐍 Boilerplate (for Data Science)
 
 The purpose of this project is to help start a project with some pre-configurations already done! I personally use this whenever I need a quick setup for a Python3 project. You can use this in every industry field you want, it's not limited to Data Science at all. 
 
